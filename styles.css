@@ -48,11 +48,27 @@ html {
   text-decoration: none;
 }
 
-.main-galery {
+.main-gallery {
+  position: relative;
   display: flex;
+  height: 90vh;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.main-galery img {
-  max-width: 100%;
-  height: auto;
+.main-gallery__right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-gallery img {
+  width: auto;
+  height: 100%;
+}
+
+.main-gallery__right-side img {
+  width: auto;
+  height: 48%;
 }
