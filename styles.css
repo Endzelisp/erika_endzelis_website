@@ -54,7 +54,7 @@ html {
   height: 90vh;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .main-gallery__right-side {
@@ -71,4 +71,18 @@ html {
 .main-gallery__right-side img {
   width: auto;
   height: 48%;
+}
+
+.extra-gallery div {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 40vh;
+  margin-bottom: 20px;
+  padding-top: 2rem;
+}
+
+.extra-gallery img {
+  width: auto;
+  height: 100%;
 }
